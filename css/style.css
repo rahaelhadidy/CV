@@ -1,0 +1,114 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*--------------------------the header---------------------------------*/
+
+.container
+{
+    width: 100%;
+    margin: auto;
+}
+
+.content-person-desc
+{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+h6, h5
+{
+    font-weight: 800;
+}
+
+td, p
+{
+    font-size: small;
+}
+
+.table-one-cell2
+{
+    width: 85%;
+}
+
+.picture-person img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+/*--------------------------------personal details------------------------------------*/
+
+.table-personal-details, 
+.table-work-experience, 
+.table-education
+{
+    margin: auto;
+    width: 85%;
+}
+
+
+.table-date-one
+{
+    vertical-align: top;
+}
+
+.table-date-two
+{
+    width: 85%;
+}
+
+/*--------------------------------work experience-------------------------------------*/
+
+.work-experience-head a, 
+.education-head a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.description-cv
+{
+    width: 70%;
+}
+
+/*-----------------------------------Educational and qualifications-------*/
+
+@media all and (max-width:1135px)
+{
+    .container
+    {
+        width: 100%;
+    }
+
+    .content-person-desc
+    {
+        width: 100%;
+    }
+
+    .description-cv
+    {
+        width: 100%;
+    }
+
+    .table-one-cell2
+    {
+        width: 70%;
+    }
+
+    .table-date-two
+    {
+        width: 70%;
+    }
+}

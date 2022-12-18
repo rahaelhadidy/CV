@@ -1,0 +1,137 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255,255,255,0.7);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.content-header
+{
+    text-align: center;
+}
+
+.container
+{
+    width: 50%;
+    padding: 25px 0;
+    margin: auto;
+}
+
+.main-head h5
+{
+    color: rgb(223, 5, 5);
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+
+.work-experience
+{
+    padding: 20px 0;
+}
+
+h6
+{
+    font-weight: 900;
+    padding-bottom: 20px;
+    color: rgb(223, 5, 5);
+}
+
+p
+{
+    font-size: small;
+}
+
+span
+{
+    font-weight: 900;
+}
+
+td
+{
+    font-size: small;
+}
+
+.work-experience-content
+{
+    padding: 10px;
+}
+
+.work-experience-content img
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+.company-logo
+{
+    text-align: center;
+}
+
+.table-work-experience
+{
+    margin: auto;
+    width: 90%;
+}
+
+.table-date-one
+{
+    display: inline;
+}
+
+.table-date-two
+{
+    padding-bottom: 10px;
+    width: 60%;
+}
+
+img
+{
+    width: 30px;
+    height: 30px;
+}
+
+.accounts
+{
+   text-align: center;
+}
+
+.linkedin
+{
+    padding-left: 11px;
+}
+
+footer
+{
+    padding: 30px 0;
+}
+
+@media all and (max-width:1360px)
+{
+    .container
+    {
+        width: 100%;
+    }
+
+    h6
+    {
+        padding-bottom: 23px;
+    }
+
+    footer
+    {
+        padding: 20px 0;
+    }
+
+    .table-date-two
+    {
+        width: 65%;
+    }
+}
